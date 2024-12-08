@@ -1,0 +1,280 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+::root {
+  --cor1: #a0dbff;
+  --cor2: #62A2EC;
+  --cor3: #4591E7;
+  --cor4: #108bd6;
+  --cor5: #396FAD;
+  --cor6: #ffffff;
+
+  --fonte-gaulesa: 'Yellowed', cursive;
+  --fonte-padrao:
+}
+
+body {
+  font-family: Yellowed;
+  background-image: linear-gradient(to bottom, #4591e79c,#316299);
+  background-attachment: fixed;
+  color: #ffffff;
+}
+
+/* LOGO DA CABEÇA */
+
+header {
+  background-color: #80AEE3;
+  padding: 15px;
+  text-align: center;
+}
+
+.menu {
+  box-shadow: 0px 0px 10px 2px #ffffff;
+}
+
+img.logo {
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+}
+
+
+/* ICONES DA CABEÇA */
+
+.icon {
+  display: inline-block;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.icone {
+  width: 10px;
+  padding-right: 0%;
+
+}
+
+.icone2 {
+  width: 100px;
+  padding: 0px 0px 25px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+/* FONTE DO SITE */
+
+h1 {
+  font-size: 150px;
+  color: #ffffff}
+
+h2 {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 13px;
+  color: white;
+}
+
+p.pp {
+  text-align: center;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 15px;
+}
+
+div p {
+  font-size: 40px;
+}
+
+
+
+
+
+/* MENU DO SITE */
+
+nav {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #108bd6; 
+  text-decoration: none;
+  padding: 11px 11px;
+  margin: 0px 0px;
+  transition-duration: .5s;
+}
+
+nav a:hover {
+  color: #ffffff;
+  background-color: #62A2EC;
+  box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.176);
+}
+
+/* CORPO DO SITE*/
+
+main {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+main h1 {
+  text-align: center;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.327);
+}
+
+.inicio {
+  text-align: center;
+  padding: 100px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.paragrafo {
+  padding: 100px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+/* BOTÃO DO SITE*/
+
+.button {
+  text-align: center;
+  padding: 100px 0px;
+  margin: 0px 0px 0px 0px;
+  
+}
+
+.buttonloja:hover {
+  background-color: rgb(255, 255, 255);
+  transition-duration: .5s;
+}
+
+
+
+
+.buttonloja {
+  display: inline-block;
+  font-size: 200px;
+  background-color: #4591E7;
+  text-decoration: none;
+  border: 1px;
+  border-radius: 0px;
+  border-style: solid;
+  border-color: white;
+  padding: 40px 20px 10px 20px;
+  margin: 0px 0px 0px 0px;
+
+}
+
+button h2 {
+  font-family: 'Yellowed';
+  font-weight: lighter;
+  font-size: 40px;
+  margin: -30px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+
+}
+
+button h3 {
+
+  font-family: 'Yellowed';
+  font-weight: lighter;
+  font-size: 20PX;
+  margin: 0px 0px 0px 8px;
+  padding: 0px 0px 0px 0px;
+  
+}
+
+/* TABELA DOS TIMES */
+
+.letratime h2 {
+  font-size: 50px;
+  padding: 50px 0px 0px 0px;
+  margin: 0px 0px -50px 0px;
+}
+
+.letraaovivo {
+  font-size: 50px;
+  padding: 0px 0px 25px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.tabela {
+  background-color: #ffffff;
+  height: 710px;
+  width: 1200px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.322);
+  padding: 0px 0px 0px 0px;
+  margin: 100px 0px 100px 0px;
+}
+
+div h3.letratabela {
+  background-color: #62a2eca9;
+  border-radius: 30px 30px 0px 0px ;
+  color: #ffffff;
+  padding: 10px;
+}
+
+div ul {
+  list-style-type: '\2714\00A0\00A0';
+  list-style-position: inside;
+  color: #4591E7;
+  columns: 2;
+}
+
+section {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+/* RODAPÉ DO SITE */
+
+footer {
+  background-color: #ffffff;
+  font-weight: bold; /* Dark grey footer */
+  padding: 0px;
+  text-align: center;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
+
+.portfolio {
+  font-weight: bold;
+  text-decoration: none;
+  color:#316299 ;
+}
+
+.portfolio:hover {
+  font-weight: bold;
+  color:#3162997d ;
+  transition-duration: .2s;
+}
+
+footer p img {
+  width: 100px;
+  margin: 0px 0px -4px 0px ;
+  padding: 0px 0px 0px 0px ;
+}
+
+.asas {
+  padding: 0px 1px 0px 0px ;
+  margin: -6px 0px -4px -3px ;
+  width: 26px;
+}
+
+p.p2 {
+  color: #108bd6;
+  font-size: 12px;
+  padding: 10px 0px 10px 0px;
+  margin: 0px 0px 0px 0px ;
+  
+}
