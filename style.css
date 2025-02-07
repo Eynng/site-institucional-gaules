@@ -3,21 +3,20 @@
   margin: 0px;
 }
 
-::root {
+:root {
   --cor1: #a0dbff;
-  --cor2: #62A2EC;
-  --cor3: #4591E7;
+  --cor2: #62a2ec;
+  --cor3: #4591e7;
   --cor4: #108bd6;
-  --cor5: #396FAD;
+  --cor5: #396fad;
   --cor6: #ffffff;
 
-  --fonte-gaulesa: 'Yellowed', cursive;
-  --fonte-padrao:
+  --fonte-gaulesa: "Yellowed", cursive;
 }
 
 body {
   font-family: Yellowed;
-  background-image: linear-gradient(to bottom, #4591e79c,#316299);
+  background-image: linear-gradient(to bottom, #4591e79c, #316299);
   background-attachment: fixed;
   color: #ffffff;
 }
@@ -25,7 +24,7 @@ body {
 /* LOGO DA CABEÇA */
 
 header {
-  background-color: #80AEE3;
+  background-color: #80aee3;
   padding: 15px;
   text-align: center;
 }
@@ -40,7 +39,6 @@ img.logo {
   width: 200px;
 }
 
-
 /* ICONES DA CABEÇA */
 
 .icon {
@@ -52,7 +50,6 @@ img.logo {
 .icone {
   width: 10px;
   padding-right: 0%;
-
 }
 
 .icone2 {
@@ -65,7 +62,8 @@ img.logo {
 
 h1 {
   font-size: 150px;
-  color: #ffffff}
+  color: #ffffff;
+}
 
 h2 {
   font-size: 16px;
@@ -90,10 +88,6 @@ div p {
   font-size: 40px;
 }
 
-
-
-
-
 /* MENU DO SITE */
 
 nav {
@@ -103,24 +97,23 @@ nav {
 }
 
 nav a {
-  color: #108bd6; 
+  color: #108bd6;
   text-decoration: none;
   padding: 11px 11px;
   margin: 0px 0px;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
 nav a:hover {
   color: #ffffff;
-  background-color: #62A2EC;
+  background-color: #62a2ec;
   box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.176);
 }
 
 /* CORPO DO SITE*/
 
 main {
-  margin-left: 100px;
-  margin-right: 100px;
+  min-height: 100vh;
 }
 
 main h1 {
@@ -130,36 +123,40 @@ main h1 {
 
 .inicio {
   text-align: center;
-  padding: 100px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+  padding-top: 100px;
+  margin: 0px;
+}
+
+.inicio2 {
+  text-align: center;
+  padding-bottom: 100px;
+  margin: 0px;
 }
 
 .paragrafo {
-  padding: 100px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+  padding-top:  20px;
+  padding-bottom: 20px;
+  margin: 0px;
 }
 
 /* BOTÃO DO SITE*/
 
 .button {
   text-align: center;
-  padding: 100px 0px;
-  margin: 0px 0px 0px 0px;
-  
+  padding-top: 130px;
+  padding-bottom: 130px;
+  margin: 0px
 }
 
 .buttonloja:hover {
   background-color: rgb(255, 255, 255);
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
-
-
-
 
 .buttonloja {
   display: inline-block;
   font-size: 200px;
-  background-color: #4591E7;
+  background-color: #4591e7;
   text-decoration: none;
   border: 1px;
   border-radius: 0px;
@@ -167,26 +164,22 @@ main h1 {
   border-color: white;
   padding: 40px 20px 10px 20px;
   margin: 0px 0px 0px 0px;
-
 }
 
 button h2 {
-  font-family: 'Yellowed';
+  font-family: "Yellowed";
   font-weight: lighter;
   font-size: 40px;
   margin: -30px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
-
 }
 
 button h3 {
-
-  font-family: 'Yellowed';
+  font-family: "Yellowed";
   font-weight: lighter;
-  font-size: 20PX;
+  font-size: 20px;
   margin: 0px 0px 0px 8px;
   padding: 0px 0px 0px 0px;
-  
 }
 
 /* TABELA DOS TIMES */
@@ -217,15 +210,15 @@ button h3 {
 
 div h3.letratabela {
   background-color: #62a2eca9;
-  border-radius: 30px 30px 0px 0px ;
+  border-radius: 30px 30px 0px 0px;
   color: #ffffff;
   padding: 10px;
 }
 
 div ul {
-  list-style-type: '\2714\00A0\00A0';
+  list-style-type: "\2714\00A0\00A0";
   list-style-position: inside;
-  color: #4591E7;
+  color: #4591e7;
   columns: 2;
 }
 
@@ -250,24 +243,24 @@ footer {
 .portfolio {
   font-weight: bold;
   text-decoration: none;
-  color:#316299 ;
+  color: #316299;
 }
 
 .portfolio:hover {
   font-weight: bold;
-  color:#3162997d ;
-  transition-duration: .2s;
+  color: #3162997d;
+  transition-duration: 0.2s;
 }
 
 footer p img {
   width: 100px;
-  margin: 0px 0px -4px 0px ;
-  padding: 0px 0px 0px 0px ;
+  margin: 0px 0px -4px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .asas {
-  padding: 0px 1px 0px 0px ;
-  margin: -6px 0px -4px -3px ;
+  padding: 0px 1px 0px 0px;
+  margin: -6px 0px -4px -3px;
   width: 26px;
 }
 
@@ -275,6 +268,5 @@ p.p2 {
   color: #108bd6;
   font-size: 12px;
   padding: 10px 0px 10px 0px;
-  margin: 0px 0px 0px 0px ;
-  
+  margin: 0px 0px 0px 0px;
 }
