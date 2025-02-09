@@ -151,12 +151,13 @@ main h1 {
   margin: 0px;
 }
 
-.buttonloja:hover, .button h2:hover, .button h3:hover {
+.buttonloja:hover,
+.button h2:hover,
+.button h3:hover {
   background-color: rgb(255, 255, 255);
   transition-duration: 0.5s;
   color: black;
 }
-
 
 .buttonloja {
   background-color: var(--cor3);
@@ -176,7 +177,6 @@ button h2 {
 
   padding: 0px;
   margin: 0px;
-
 }
 
 button h3 {
@@ -237,7 +237,7 @@ section {
 
 /* LIVE DO SITE */
 
-.paralive{
+.paralive {
   margin: 0px;
   padding-bottom: 50px;
 }
@@ -256,14 +256,10 @@ footer {
   font-weight: bold; /* Dark grey footer */
   text-align: center;
   position: relative;
-  
 
-  
   width: 100%;
   padding: 0px;
   margin: 0px;
-
-
 }
 
 p.p2 {
@@ -275,13 +271,10 @@ p.p2 {
 }
 
 footer p img {
-  
   width: 5vw;
   padding: 0px;
   margin: 0px;
-  
 }
-
 
 .portfolio {
   font-weight: bold;
@@ -300,4 +293,3 @@ footer p img {
   margin: -6px 0px -4px -3px;
   width: 26px;
 }
-
