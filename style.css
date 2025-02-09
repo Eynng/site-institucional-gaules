@@ -38,7 +38,7 @@ header {
 img.logo {
   margin: 0px;
   padding: 0px;
-  width: 200px;
+  width: 20vh;
 }
 
 /* ICONES DA CABEÇA */
@@ -63,7 +63,7 @@ img.logo {
 /* FONTE DO SITE */
 
 h1 {
-  font-size: 150px;
+  font-size: 15vh;
   color: #ffffff;
 }
 
@@ -104,6 +104,7 @@ nav a {
   padding: 11px 11px;
   margin: 0px 0px;
   transition-duration: 0.5s;
+  font-size: 1em;
 }
 
 nav a:hover {
@@ -145,8 +146,8 @@ main h1 {
 
 .button {
   text-align: center;
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 135px;
+  padding-bottom: 135px;
   margin: 0px;
 }
 
@@ -191,8 +192,8 @@ button h3 {
 
 .letratime h2 {
   font-size: 50px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .letraaovivo {
@@ -204,8 +205,8 @@ button h3 {
 
 .tabela {
   background-color: #ffffff;
-  height: 710px;
-  width: 1200px;
+  height: 80vh;
+  width: 90vw;
   display: inline-block;
   text-align: center;
   border-radius: 30px;
@@ -242,9 +243,10 @@ section {
 }
 
 #stream {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin: 0px;
+  height: 50vh;
 }
 
 /* RODAPÉ DO SITE */
@@ -252,12 +254,34 @@ section {
 footer {
   background-color: #ffffff;
   font-weight: bold; /* Dark grey footer */
-  padding: 0px;
   text-align: center;
-  position: fixed;
-  bottom: 0%;
+  position: relative;
+  
+
+  
   width: 100%;
+  padding: 0px;
+  margin: 0px;
+
+
 }
+
+p.p2 {
+  color: #108bd6;
+  font-size: 1vw;
+  padding-top: 10px;
+  padding-bottom: 14px;
+  margin: 0px;
+}
+
+footer p img {
+  
+  width: 5vw;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
 
 .portfolio {
   font-weight: bold;
@@ -271,21 +295,9 @@ footer {
   transition-duration: 0.2s;
 }
 
-footer p img {
-  width: 100px;
-  margin: 0px 0px -4px 0px;
-  padding: 0px 0px 0px 0px;
-}
-
 .asas {
   padding: 0px 1px 0px 0px;
   margin: -6px 0px -4px -3px;
   width: 26px;
 }
 
-p.p2 {
-  color: #108bd6;
-  font-size: 12px;
-  padding: 10px 0px 10px 0px;
-  margin: 0px 0px 0px 0px;
-}
