@@ -54,8 +54,8 @@ img.logo {
 
 .icone2 {
   width: 100px;
-  padding: 0px 0px 25px 0px;
-  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 /* FONTE DO SITE */
@@ -134,7 +134,7 @@ main h1 {
 }
 
 .paragrafo {
-  padding-top:  20px;
+  padding-top: 20px;
   padding-bottom: 20px;
   margin: 0px;
 }
@@ -145,55 +145,59 @@ main h1 {
   text-align: center;
   padding-top: 130px;
   padding-bottom: 130px;
-  margin: 0px
+  margin: 0px;
 }
 
-.buttonloja:hover {
+.buttonloja:hover, .button h2:hover, .button h3:hover {
   background-color: rgb(255, 255, 255);
   transition-duration: 0.5s;
+  color: black;
 }
 
+
 .buttonloja {
-  display: inline-block;
+  background-color: var(--cor3);
   font-size: 200px;
-  background-color: #4591e7;
   text-decoration: none;
   border: 1px;
-  border-radius: 0px;
   border-style: solid;
-  border-color: white;
-  padding: 40px 20px 10px 20px;
-  margin: 0px 0px 0px 0px;
+  border-color: rgb(255, 255, 255);
+  padding: 15px 20px 15px 20px;
+  margin: 0px;
 }
 
 button h2 {
   font-family: "Yellowed";
   font-weight: lighter;
   font-size: 40px;
-  margin: -30px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
+
+  padding: 0px;
+  margin: 0px;
+
 }
 
 button h3 {
   font-family: "Yellowed";
   font-weight: lighter;
   font-size: 20px;
-  margin: 0px 0px 0px 8px;
+
   padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 8px;
 }
 
 /* TABELA DOS TIMES */
 
 .letratime h2 {
   font-size: 50px;
-  padding: 50px 0px 0px 0px;
-  margin: 0px 0px -50px 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .letraaovivo {
   font-size: 50px;
-  padding: 0px 0px 25px 0px;
-  margin: 0px 0px 0px 0px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  margin: 0px;
 }
 
 .tabela {
@@ -204,8 +208,8 @@ button h3 {
   text-align: center;
   border-radius: 30px;
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.322);
-  padding: 0px 0px 0px 0px;
-  margin: 100px 0px 100px 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 div h3.letratabela {
