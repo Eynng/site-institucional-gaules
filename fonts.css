@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: 'Yellowed';
-  src: url(fonts/Yellowed.ttf);format:("truetype")
+  font-family: "Yellowed";
+  src: url(fonts/Yellowed.ttf);
+  format: ("truetype");
 }
