@@ -223,11 +223,14 @@ button h3 {
   background-color: #62a2eca9;
   border-radius: 30px 30px 0px 0px;
   height: 1vw;
+  
 
-  padding-top: 15px;
+  padding-top:  15px;
   padding-bottom: 15px;
   margin: 0px;
 }
+
+
 
 div ul {
   list-style-type: "\2714\00A0\00A0";
