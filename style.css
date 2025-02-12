@@ -32,7 +32,9 @@ header {
 }
 
 .menu {
-  box-shadow: 0px 0px 10px 2px #ffffff;
+  box-shadow: 0px 0px 0px 0px #ffffff;
+  padding: 11px;
+  margin: 0px;
 }
 
 img.logo {
@@ -103,8 +105,8 @@ nav {
 nav a {
   color: #108bd6;
   text-decoration: none;
-  padding: 11px 11px;
-  margin: 0px 0px;
+  padding: 12px 20px;
+  margin: -2px;
   transition-duration: 0.5s;
   font-size: 1em;
 }
@@ -217,12 +219,18 @@ button h3 {
   margin: 0px;
 }
 
-div h3.letratabela {
+.letratabela {
   background-color: #62a2eca9;
   border-radius: 30px 30px 0px 0px;
-  color: #ffffff;
-  padding: 10px;
+  height: 1vw;
+  
+
+  padding-top:  15px;
+  padding-bottom: 15px;
+  margin: 0px;
 }
+
+
 
 div ul {
   list-style-type: "\2714\00A0\00A0";
