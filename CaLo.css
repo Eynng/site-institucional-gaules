@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient( rgba(65, 115, 172, 0.808), rgba(65, 115, 172, 0.534));
+  background: linear-gradient( #4591e79c, #316299);
   background-attachment: fixed;
 }
 
@@ -16,11 +16,11 @@ p#botão {
 }
 
 p#botão input {
-  background-color: rgba(65, 115, 172, 0.808);
+  background-color: #4591e7;
   color: white;
   border: none;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 p#botão input:hover {
@@ -30,10 +30,10 @@ p#botão input:hover {
 
 fieldset {
   margin: auto;
-  border-radius: 50px;
+  border-radius: 0px;
   text-align: center;
-  background-color: rgba(65, 115, 172, 0.774);
-  border: none;
+  background-color: #4591e7;
+  border: 1px solid white;
   width: 30vw;
 }
 
