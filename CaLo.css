@@ -1,5 +1,5 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Yellowed";
   padding: 8px;
   margin: 8px;
 }
@@ -18,14 +18,14 @@ p#botão {
 p#botão input {
   background-color: #4591e7;
   color: white;
-  border: none;
+  border: 0.5px solid white;
   padding: 10px;
   border-radius: 0px;
 }
 
 p#botão input:hover {
   cursor: pointer;
-  background-color: rgba(39, 68, 102, 0.808);
+  background-color: #316299;
 }
 
 fieldset {
@@ -33,7 +33,7 @@ fieldset {
   border-radius: 0px;
   text-align: center;
   background-color: #4591e7;
-  border: 1px solid white;
+  border: 0px solid white;
   width: 30vw;
 }
 
@@ -52,7 +52,7 @@ h1 {
 
 input {
   border: 0px;
-  border-radius: 15px;
+  border-radius: 0px;
   text-align: center;
   
 }
