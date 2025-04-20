@@ -1,0 +1,72 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px;
+  margin: 8px;
+}
+
+body {
+  background: linear-gradient( rgba(65, 115, 172, 0.808), rgba(65, 115, 172, 0.534));
+  background-attachment: fixed;
+}
+
+p#botão {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+p#botão input {
+  background-color: rgba(65, 115, 172, 0.808);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+p#botão input:hover {
+  cursor: pointer;
+  background-color: rgba(39, 68, 102, 0.808);
+}
+
+fieldset {
+  margin: auto;
+  border-radius: 50px;
+  text-align: center;
+  background-color: rgba(65, 115, 172, 0.774);
+  border: none;
+  width: 30vw;
+}
+
+label {
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+input {
+  border: 0px;
+  border-radius: 15px;
+  text-align: center;
+  
+}
+
+header {
+  text-align: center;
+  padding: 8px;
+  margin: 8px;
+}
+
+.logo {
+  width: 150px;
+
+
+  margin: 0px;
+  padding: 0px;
+}

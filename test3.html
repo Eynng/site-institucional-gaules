@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaules | Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <img class="logo" src="imagem/Gaules logo branca.png" alt="logo">
+  </header>
+
+  <h1>Login</h1>
+
+  <p id="botão">
+    <a href="test2.html"><input  type="button" value="Criar Conta"></a>
+  </p>
+
+
+  <form action="cadastro.php" method="get" autocomplete="on" required>
+
+    <fieldset>
+      
+      <p>
+        <label for="iusu">Usuário :</label>
+        <input type="text" name="usu" id="iusu" required autocomplete="username" minlength="5" maxlength="15" placeholder="nome de usuário">
+      </p>
+      
+      <p>
+        <label for="isenha">SENHA :</label>
+        <input type="password" name="senha" id="isenha" minlength="6" maxlength="15" required placeholder="mínimo 6 digitos" >
+      </p>
+    
+    </fieldset>
+
+    <p id="botão">
+      <input type="submit" value="Entrar">
+      <input type="submit" value="Esqueci senha">
+      
+    </p>
+
+  </form>
+  
+</body>
+</html>
