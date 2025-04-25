@@ -55,7 +55,17 @@ input {
   border-radius: 0px;
   text-align: center;
   
+  
 }
+
+input.box {
+  display: inline-block;
+  margin-right: auto;
+  
+  
+}
+
+
 
 header {
   text-align: center;
