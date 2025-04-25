@@ -9,6 +9,23 @@ body {
   background-attachment: fixed;
 }
 
+header {
+  text-align: center;
+  padding: 8px;
+  margin: 8px;
+}
+
+
+
+h1 {
+
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+
 p#botão {
   text-align: center;
   padding: 10px;
@@ -37,46 +54,26 @@ fieldset {
   width: 30vw;
 }
 
+
+
 label {
   color: white;
   font-weight: bold;
-}
-
-h1 {
-
   text-align: center;
-  color: white;
-  padding: 10px;
-  margin: 10px;
 }
+
+
 
 input {
   border: 0px;
   border-radius: 0px;
   text-align: center;
-  
-  
-}
-
-input.box {
-  display: inline-block;
-  margin-right: auto;
-  
-  
 }
 
 
-
-header {
-  text-align: center;
-  padding: 8px;
-  margin: 8px;
-}
 
 .logo {
   width: 150px;
-
-
   margin: 0px;
   padding: 0px;
 }
