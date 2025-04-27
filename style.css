@@ -31,6 +31,20 @@ header {
   text-align: center;
 }
 
+#itabela {
+  padding: 0px;
+  margin: 0px;
+
+  height: 75vh;
+  width: 85vw;
+
+  border: 0px;
+
+  border-radius: 30px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.322);
+
+}
+
 .menu {
   box-shadow: 0px 0px 0px 0px #ffffff;
   padding: 11px;

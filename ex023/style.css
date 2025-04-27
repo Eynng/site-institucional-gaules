@@ -1,0 +1,189 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 1em;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  /*background-image: url(Imagens/Wallpaper\ 1.png);*/
+
+  background-image: linear-gradient(to bottom, #4591e79c, #316299);
+  background-attachment: fixed;
+  color: #ffffff;
+
+
+  
+  background-repeat: no-repeat;
+  background-position: center center ;
+  background-size: cover;
+  background-attachment: fixed;
+
+  color: rgb(216, 216, 216);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(216, 216, 216);
+}
+
+header {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0px;
+
+  height: 50px;
+  width: 100vw;
+
+  background-color: rgba(255, 255, 255, 0.288);
+
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.466);
+  
+}
+
+button {
+  border: none;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+
+  padding: auto;
+  margin: auto;
+  
+}
+
+.logo {
+  display: flex;
+ justify-items: center;
+ align-items: center;
+  
+
+  height: 40px;
+
+  padding: auto;
+  margin: auto;
+  
+}
+
+.eternal {
+  height: 30px;
+  width: 50px;
+}
+
+.mongolz {
+  width: 45px;
+  height: 50px;
+}
+
+.gl {
+  width: 50px;
+  height: 35px;
+}
+
+.big {
+  width: 40px;
+  height: 50px;
+}
+
+.pain {
+  width: 49px;
+  height: 37px;
+}
+
+.mibr {
+  width: 50px;
+  height: 23px;
+}
+
+.saw {
+  width: 40px;
+  height: 40px;
+}
+
+.spirit {
+  width: 45px;
+  height: 50px;
+}
+
+.vitality {
+  width: 40px;
+  height: 45px;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  position: relative;
+  color: rgba(0, 0, 0, 0.726);
+
+  background-color: rgba(255, 255, 255, 0.288);
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+  font-weight: bolder;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: rgb(20, 0, 204);
+  transition: 0.8s;
+  
+
+}
+
+.positivo {
+  color: rgb(0, 255, 136);
+}
+
+.negativo {
+  color: rgb(255, 75, 75);
+}
+
+.head {
+  background-color: rgba(255, 255, 255, 0.178);
+  color: rgba(255, 255, 255, 0.459);
+}
+
+.tittle {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+table {
+  padding: auto;
+  margin: auto;
+  margin-bottom: 200px;
+
+  height: 50vh;
+  width: 50vw;
+
+  border-collapse: collapse;
+}
+
+td {
+  margin: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.103);
+  padding: 8px;
+  text-align: center; /*Alinhamento Horizontal*/
+  vertical-align: middle; /*Alinhamento Vertical*/
+}
+
+.numero {
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+}
