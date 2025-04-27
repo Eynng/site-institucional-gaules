@@ -263,6 +263,17 @@ section {
 
 /* LIVE DO SITE */
 
+#aovivo {
+
+  
+
+  margin-top: 200px;
+  margin-bottom: 200px;
+
+  
+  
+}
+
 .paralive {
   margin: 0px;
   padding-bottom: 50px;
@@ -273,12 +284,14 @@ section {
   padding-bottom: 0px;
   margin: 0px;
   height: 50vh;
+  border: none;
 }
 
 /* RODAPÉ DO SITE */
 
 footer {
   background-color: #ffffff;
+  
   font-weight: bold; /* Dark grey footer */
   text-align: center;
   position: relative;
@@ -290,14 +303,14 @@ footer {
 
 p.p2 {
   color: #108bd6;
-  font-size: 1vw;
+  font-size: 1.5vh;
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 0px;
 }
 
 footer p img {
-  width: 5vw;
+  width: 4vw;
   padding: 0px;
   margin: 0px;
 }
