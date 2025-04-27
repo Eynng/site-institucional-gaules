@@ -26,9 +26,12 @@ body {
 /* LOGO DA CABEÇA */
 
 header {
-  background-color: #80aee3;
+  background-color: #80aee300;
   padding: 15px;
   text-align: center;
+  margin: 0px;
+  padding-top: 100px;
+  
 }
 
 #itabela {
@@ -144,7 +147,7 @@ main h1 {
 
 .inicio {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
   margin: 0px;
 }
 
@@ -332,3 +335,11 @@ footer p img {
   margin: -6px 0px -4px -3px;
   width: 26px;
 }
+
+.menu {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px; 
+}
+

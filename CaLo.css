@@ -49,8 +49,8 @@ fieldset {
   margin: auto;
   border-radius: 0px;
   text-align: center;
-  background-color: #4591e7;
-  border: 0px solid white;
+  background-color: #ffffff15;
+  border: 1px solid rgba(255, 255, 255, 0.281);
   width: 30vw;
 }
 
