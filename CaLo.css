@@ -25,6 +25,16 @@ h1 {
   margin: 10px;
 }
 
+#botão input {
+  background-color: #4591e7;
+  color: white;
+  border: 0.5px solid white;
+  padding: 10px;
+  border-radius: 0px;
+}
+
+
+
 
 p#botão {
   text-align: center;
@@ -33,16 +43,16 @@ p#botão {
 }
 
 p#botão input {
-  background-color: #4591e7;
+  background-color: #ffffff15;
   color: white;
-  border: 0.5px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.281);
   padding: 10px;
   border-radius: 0px;
 }
 
 p#botão input:hover {
   cursor: pointer;
-  background-color: #316299;
+  background-color: #4787cf;
 }
 
 fieldset {
@@ -65,9 +75,10 @@ label {
 
 
 input {
+  font-family: Arial, Helvetica, sans-serif;
   border: 0px;
   border-radius: 0px;
-  text-align: center;
+  text-align: left;
 }
 
 
