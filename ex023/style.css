@@ -32,11 +32,19 @@ header {
   padding-bottom: 10px;
   margin: 0px;
 
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px; 
+  
+  background-color: #4591e7;
+  
+  
+
   height: 50px;
   width: 100vw;
-
-  background-color: rgba(255, 255, 255, 0.288);
-
+  
+  background-attachment: fixed;
   box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.466);
   
 }
@@ -54,8 +62,8 @@ button {
 
 .logo {
   display: flex;
- justify-items: center;
- align-items: center;
+  justify-items: center;
+  align-items: center;
   
 
   height: 40px;
@@ -155,7 +163,7 @@ a:hover {
 
 .head {
   background-color: rgba(255, 255, 255, 0.178);
-  color: rgba(255, 255, 255, 0.459);
+  color: rgba(255, 255, 255, 0.596);
 }
 
 .tittle {
@@ -166,7 +174,8 @@ a:hover {
 table {
   padding: auto;
   margin: auto;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
+  margin-top: 100px;
 
   height: 50vh;
   width: 50vw;

@@ -20,11 +20,19 @@ header {
   padding-bottom: 10px;
   margin: 0px;
 
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px; 
+  
+  background-color: #4591e7;
+  
+  
+
   height: 50px;
   width: 100vw;
-
-  background-color: rgba(255, 255, 255, 0.288);
-
+  
+  background-attachment: fixed;
   box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.466);
   
 }
