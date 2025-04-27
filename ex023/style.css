@@ -49,6 +49,8 @@ header {
   
 }
 
+
+
 button {
   border: none;
   display: flexbox;
@@ -68,6 +70,21 @@ button {
 
   height: 40px;
 
+  padding: auto;
+  margin: auto;
+  
+}
+.logo:hover {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+  background-image: url(Imagens/counter-strike-2-seeklogo-branca.png);
+  background-size: contain;
+  
+
+  height: 50px;
+  transition: all 0.5s ease-in-out;
   padding: auto;
   margin: auto;
   
