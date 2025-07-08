@@ -74,7 +74,8 @@ button {
   margin: auto;
   
 }
-.logo:hover {
+
+/*.logo:hover {
   display: flex;
   justify-items: center;
   align-items: center;
@@ -88,7 +89,7 @@ button {
   padding: auto;
   margin: auto;
   
-}
+} */
 
 .eternal {
   height: 30px;
