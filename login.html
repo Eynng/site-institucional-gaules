@@ -12,30 +12,24 @@
 <body>
 
   <header>
-
-    <a id="botão" href="index.html"><input  type="button" value="Inicio"></a>
-    
     <img class="logo" src="image/Gaules logo branca.png" alt="logo">
   </header>
 
-  <h1>Login</h1>
 
-  <p id="botão">
-    <a href="cadastro.html"><input  type="button" value="Criar Conta"></a>
-  </p>
+  <p id="botão"><a href="cadastro.html"><input  type="button" value="Criar Conta"></a></p>
 
 
   <form action="cadastro.php" method="get" autocomplete="on" required>
 
-    <fieldset>
+    <fieldset class="card1">
       
       <p>
         <label for="iusu">USUARIO :</label>
-        <input type="text" name="usu" id="iusu" required autocomplete="username" minlength="5" maxlength="15" placeholder="nome de usuario">
+        <label for="isenha">SENHA :</label>
       </p>
       
       <p>
-        <label for="isenha">SENHA :</label>
+        <input type="text" name="usu" id="iusu" required autocomplete="username" minlength="5" maxlength="15" placeholder="nome de usuario">
         <input type="password" name="senha" id="isenha" minlength="6" maxlength="15" required placeholder="minimo 6 digitos" >
       </p>
     
