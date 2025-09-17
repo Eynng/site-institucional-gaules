@@ -20,7 +20,7 @@ body {
   font-family: Yellowed;
   background-image: linear-gradient(to bottom, #519aec9c, #2c598b);
   background-attachment: fixed;
-  color: #ffffff;
+
 }
 
 /* LOGO DA CABEÇA */
@@ -50,7 +50,7 @@ header {
 
 .menu {
   box-shadow: 0px 0px 0px 0px #ffffff;
-  padding: 11px;
+  padding: 10px;
   margin: 0px;
 
   position: fixed;
@@ -94,16 +94,6 @@ h1 {
   color: #ffffff;
 }
 
-h2 {
-  font-size: 16px;
-  color: #ffffff;
-}
-
-h3 {
-  font-size: 13px;
-  color: white;
-}
-
 p.pp {
   text-align: center;
   font-weight: lighter;
@@ -117,29 +107,97 @@ div p {
   font-size: 4.5vh;
   padding-left: 5px;
   padding-right: 5px;
+  color: white;
+}
+
+h2 {
+  font-family: "Yellowed";
+  font-weight: lighter;
+  font-size: 40px;
+
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+h3 {
+  font-family: "Yellowed";
+  font-weight: lighter;
+  font-size: 20px;
+
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 8px;
+}
+
+.letratime h2 {
+  font-size: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: white;
+}
+
+.letraaovivo {
+  font-size: 50px;
+  color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  margin: 0px;
 }
 
 /* MENU DO SITE */
 
+img.icon {
+  width: 25px;
+  padding: 0px;
+  margin: 0px;
+}
+img.facebook {
+  width: 13px;
+  padding: 0px;
+  margin: 0px;
+}
+
+
 nav {
   background-color: #ffffff;
   padding: 10px;
-  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 nav a {
-  color: #108bd6;
+  color: #33b9ff;
   text-decoration: none;
-  padding: 12px 20px;
+  padding: 17px 20px;
   margin: -2px;
   transition-duration: 0.5s;
   font-size: 1em;
 }
 
-nav a:hover {
+nav div a:hover {
   color: #ffffff;
   background-color: #62a2ec;
   box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.176);
+}
+
+div.logoc {
+  padding: 0px 100px;
+  margin: 0px;
+}
+
+ul a {
+  text-decoration: none;
+  padding: 0px 10px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 /* CORPO DO SITE*/
@@ -153,14 +211,9 @@ main h1 {
   text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.327);
 }
 
-.inicio {
+.bemvindo {
   text-align: center;
-  padding-top: 50px;
-  margin: 0px;
-}
-
-.inicio2 {
-  text-align: center;
+  padding-top: 100px;
   padding-bottom: 100px;
   margin: 0px;
 }
@@ -180,14 +233,11 @@ main h1 {
   margin: 0px;
 }
 
-.buttonloja:hover {
-  background-color: rgb(255, 255, 255);
-  transition-duration: 0.5s;
-  cursor: pointer;
-}
 
-.buttonloja {
+
+button.loja {
   background-color: var(--cor3);
+  color: #ffffff;
   font-size: 200px;
   text-decoration: none;
   border: 1px;
@@ -197,26 +247,12 @@ main h1 {
   margin: 0px;
 }
 
-
-
-button h2 {
-  font-family: "Yellowed";
-  font-weight: lighter;
-  font-size: 40px;
-
-  padding: 0px;
-  margin: 0px;
-}
-
-
-
-button h3 {
-  font-family: "Yellowed";
-  font-weight: lighter;
-  font-size: 20px;
-
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 8px;
+button.loja:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 6px rgba(255, 255, 255, 0.295);
+  color: #33b8ff;
+  transition-duration: 0.5s;
+  cursor: pointer;
 }
 
 /* TABELA DOS TIMES */
@@ -255,15 +291,6 @@ button h3 {
   padding-top:  15px;
   padding-bottom: 15px;
   margin: 0px;
-}
-
-
-
-div ul {
-  list-style-type: "\2714\00A0\00A0";
-  list-style-position: inside;
-  color: #4591e7;
-  columns: 2;
 }
 
 section {
