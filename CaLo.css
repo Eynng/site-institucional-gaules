@@ -12,7 +12,9 @@ body {
 /* CABEÇA DO SITE */
 
 header {
-  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
   padding: 8px;
   margin: 8px;
 }
@@ -21,6 +23,14 @@ header {
   width: 150px;
   margin: 0px;
   padding: 0px;
+}
+
+.home {
+  width: 35px;
+  height: 35px;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
 }
 
 h1 {
@@ -68,7 +78,7 @@ fieldset.card1 {
   margin: auto;
   padding: 50px;
   border-radius: 0px;
-  background-color: #ffffff15;
+  background-color: #ffffff4b;
   border: 1px solid rgba(255, 255, 255, 0.281);
   width: 400px;
 
@@ -82,7 +92,7 @@ fieldset.card2 {
   margin: auto;
   padding: 50px;
   border-radius: 0px;
-  background-color: #ffffff15;
+  background-color: #ffffff4b;
   border: 1px solid rgba(255, 255, 255, 0.281);
   width: 600px;
 
